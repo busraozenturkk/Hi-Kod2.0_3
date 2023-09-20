@@ -1,0 +1,97 @@
+*{
+    padding:0px;
+    margin:0px;
+    
+}
+header{
+    background-color: #5E1742;
+    text-align: center;
+    padding: 50px;
+}
+header h1{
+    color:#ffffff;
+}
+nav{
+    background-color: #330136;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    padding:20px;
+}
+nav ul a{
+    color: aliceblue;
+    text-decoration: none;
+}
+aside{
+    float:left;
+    background-color: #C1BBA8;
+    width: 25%;
+    
+    
+    
+}
+aside ul{
+    display:grid;
+    gap:20px;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+aside ul a{
+    text-decoration: none;
+    color: #962E40;
+}
+aside ul h5{
+    color: #fffdfd;
+    background-color: #355C7D;
+    padding:5px;
+}
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    padding:30px;
+}
+.box{
+    background-color: #B19088;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.box h3{
+    color:#80A8DA;
+    background-color: #fffdfd;
+}
+.img__container{
+    background-color: #5E1742;
+}
+.img__box{
+    display: flex;
+    gap: 150px;
+    margin-left:60px;
+    padding: 20px;
+}
+footer{
+    background-color: #330136;
+    padding: 50px;
+}
+footer ul{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+footer ul a{
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;
+}
